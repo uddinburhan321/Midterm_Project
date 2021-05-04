@@ -1,5 +1,6 @@
-package string.problems;
+package rmns.problems;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -10,6 +11,7 @@ public class DetermineLargestWord {
          Implement to Find the length and longest word in the given sentence below.
          Should return "10 biological".
          */
+
         String s = "Human brain is a biological learning machine";
         Map<Integer, String> wordNLength = findTheLargestWord(s);
         //implement
