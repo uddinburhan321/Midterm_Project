@@ -1,29 +1,107 @@
 Please answer the below Data Structure Questions:
 
-why do we need data structure?
-Ans :
+Why do we need data structure?
+Ans: data structure needed because Java programmers use data structures to store and organize data. Data structures also
+    make it easy to locate and retrieve data and we use algorithms to manipulate the data in those structures.
 
 What are the various operations that can be performed on different Data Structures?
+Ans: Basic operations you can perform on Data Structures are are:
+    Insertion − Add a new data item in the data structure .
+    Deletion − Delete an existing data item from the data structure.
+    Traversal − Access each data item exactly once so that it can be processed.
+    Searching − Find out the location of the data item if it exists in the data structure
+    Sorting − Arranging the data items in some order.
+
 List out the areas in which data structures are applied extensively?
+Ans: Data structures can be applied in areas of:
+    Compiler Design
+    Operating System
+    Database Management System
+    Statistical analysis package
+    Numerical Analysis
+    Graphics
+    Artificial Intelligence
+    Simulation
+
 what is an Array?
+Ans: An array is a container object that holds a fixed number of values of a single type.
+
 what is the difference between the Array and ArrayList?
+Ans: Array is a fixed length data structure whereas ArrayList is a variable length Collection class.
+    We cannot change the length of an array once created in Java but ArrayList can be changed.
+
 what is LinkedList?
+Ans: The LinkedList class is a collection which can contain many objects of the same type, just like the ArrayList.
+
 How is an Array different from Linked List?
+Ans: An array is a collection of elements of a similar data type whereas Linked List is an ordered collection of elements of the same type in which each element is connected to the next using pointers.
+
 what is queue?
+Ans: Queue is an interface available in java. util package and extends java.
+
 what is stack?
+Ans: A Stack is a Last In First Out (LIFO) data structure. It supports two basic operations called push and pop.
+
 what is FIFO and LIFO?
+Ans: FIFO is an abbreviation for first in, first out. It is a method for handling data structures where the first element is processed first and the newest element is processed last.
+    LIFO is an abbreviation for Last in, first out is same as fist in, last out (FILO). It is a method for handling data structures where the last element is processed first and the first element is processed last.
+
 what is the order of complexity?
+Ans: Generally, an algorithm has an asymptotic computational complexity. Assuming the input is of size N, we can say that the algorithm will finish at O(N), O(N^2), O(N^3), O(N*log(N)) etc.
+
 what is the best case to search an element from an array?
+Ans: The best case to search an element for an array is by converting an Array to an ArrayList.
+
 what is the worst case to search an element from an array?
+Ans: The worst case to search an element for an array is by using a for-each loop.
+
 what is tree in data structure?
+Ans: In data structure a Tree is a non-linear data structure where data objects are organized in terms of a hierarchical relationship.
+
 what is graph in data structure?
+Ans: A graph is a data structure for sorting connected data like a network of people on a social media platform.
+
 what is the difference between the HashTable and HashMap?
+Ans: HashMap isn't synchronized and it doesn't allow any null key or value and a HashTable is synchronized which allows multiple null value.
+
 What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+Ans: The major data structures used in the following areas are:
+    RDBMS = Array of structures
+    Network data model = graph
+    Hierarchical data model = Trees
+
 How HashMap works in java?
+Ans: It allows to store object and retrieve it when provided with key and value
+
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
+Ans: ArrayIndexOutOfBoundsException is thrown to indicate that we are trying to access an array element with an illegal index.
+    This exception occurs when the index is either negative or greater than or equal to the size of the array.
+
 What are the different ways of copying an array into another array?
+Ans: There are mainly four different ways of copying an array into another array:
+    Manually copy elements one by one into the new array.
+    Directly copy one array to another by using Arrays.copyOf() method.
+    System.arraycopy() method can be used to copy a subset of an array.
+    Object.clone() method creates a new array of the same size.
+
 What is difference between an array and a linked list?
+Ans: The entire array is stored in a contiguous block of memory. In LinkedList, different elements are stored at different memory locations. Array is a collection of elements of similar data type. LinkedList is an ordered collection of elements of the same type, which are connected to each other using pointers. The size of an array is specified at the time of declaration and cannot be changed afterward. Data items can be removed or added from the LinkedList whenever needed.
+
 What is DFS and BFS?
+Ans: - DFS is an algorithm for finding or traversing graphs or trees in depth-ward direction. The execution of the algorithm begins at the root node and explores each branch before backtracking.
+    It uses a stack data structure to remember, to get the subsequent vertex, and to start a search, whenever a dead-end appears in any iteration. The full form of DFS is Depth-first search.
+
+    - BFS is an algorithm that is used to graph data or searching tree or traversing structures. The algorithm efficiently visits and marks all the key nodes in a graph in an accurate breadthwise fashion.
+    his algorithm selects a single node (initial or source point) in a graph and then visits all the nodes adjacent to the selected node. Once the algorithm visits and marks the starting node, then it moves towards the nearest unvisited nodes and analyses them.
+    Once visited, all nodes are marked. These iterations continue until all the nodes of the graph have been successfully visited and marked. The full form of BFS is the Breadth-first search.
+
+
 What is Recursion?
+Ans: Recursion is the technique of making a function call itself.
+
 What are linear and non linear data Structures?
+Ans: Data structure where data elements are arranged sequentially or linearly where the elements are attached to its previous and next adjacent in what is called a linear data structure.
+    Data structures where data elements are not arranged sequentially or linearly are called non-linear data structures.
+
 What is Big-(O)-notation?
+Ans: Big O Notation is a relative representation of an algorithm's complexity.
